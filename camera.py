@@ -12,7 +12,7 @@ from picamera2.outputs import FileOutput
 # Lấy đường dẫn tuyệt đối của file hiện tại
 script_dir = os.path.dirname(os.path.abspath(__file__))
 html_file_path = os.path.join(script_dir, "index.html")
-css_file_path = os.path.join(script_dir, "styles.css")
+css_file_path = os.path.join(script_dir, "style.css")
 js_file_path = os.path.join(script_dir, "script.js")
 favicon_file_path = os.path.join(script_dir, "favicon.ico")
 
